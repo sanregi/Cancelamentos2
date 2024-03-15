@@ -18,6 +18,7 @@ Precisando melhorar seus resultados ela quer conseguir entender os principais mo
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+import sklearn
 
 # Carrega os dados
 @st.cache_data
