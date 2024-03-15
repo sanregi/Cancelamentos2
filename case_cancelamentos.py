@@ -1,12 +1,9 @@
+# Mark1:
+st.markdown('''
+## Projeto | Análise de dados com Python <a name="1"></a>
+''', unsafe_allow_html=True)
 
-# Configuração da página
-st.set_page_config(
-    page_title="Projeto | Análise de dados com Python",
-    layout="wide",
-    initial_sidebar_state="auto",
-)
-
-# Etapa 1:
+# Mark2:
 st.markdown('''
 ## Case - Cancelamento de Clientes <a name="1"></a>
 ''', unsafe_allow_html=True)
