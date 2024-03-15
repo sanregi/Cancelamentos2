@@ -1,10 +1,20 @@
-def main():
-    st.title("Análise de dados com Python")
-    st.header("Case - Cancelamento de Clientes")
-    st.write("Você foi contratado por uma empresa com mais de 800 mil clientes para um projeto de Dados. Recentemente a empresa percebeu que da sua base total de clientes, a maioria são clientes inativos, ou seja, que já cancelaram o serviço.")
-    st.write("Precisando melhorar seus resultados ela quer conseguir entender os principais motivos desses cancelamentos e quais as ações mais eficientes para reduzir esse número.")
 
+# Configuração da página
+st.set_page_config(
+    page_title="Projeto | Análise de dados com Python",
+    layout="wide",
+    initial_sidebar_state="auto",
+)
 
+# Etapa 1:
+st.markdown('''
+## Case - Cancelamento de Clientes <a name="1"></a>
+''', unsafe_allow_html=True)
+
+st.markdown('''
+Você foi contratado por uma empresa com mais de 800 mil clientes para um projeto de Dados. Recentemente a empresa percebeu que da sua base total de clientes, a maioria são clientes inativos, ou seja, que já cancelaram o serviço.
+Precisando melhorar seus resultados ela quer conseguir entender os principais motivos desses cancelamentos e quais as ações mais eficientes para reduzir esse número.
+''')
 
 import pandas as pd
 import streamlit as st
