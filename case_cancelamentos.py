@@ -23,7 +23,7 @@ import sklearn
 # Carrega os dados
 @st.cache_data
 def load_data():
-    tabela = pd.read_csv(r"C:\Users\regiz\OneDrive\Área de Trabalho\Case cancelamentos\cancelamentos.csv")
+    tabela = pd.read_csv("cancelamentos.csv")
     return tabela
 
 tabela = load_data()
