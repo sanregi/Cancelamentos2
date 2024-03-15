@@ -1,7 +1,4 @@
-# Mark1:
-st.markdown('''
-## Projeto | Análise de dados com Python <a name="1"></a>
-''', unsafe_allow_html=True)
+
 
 # Mark2:
 st.markdown('''
